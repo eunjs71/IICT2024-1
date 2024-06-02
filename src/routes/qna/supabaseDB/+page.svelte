@@ -7,6 +7,7 @@
         sketchJS,
         sketchJS_loadDB,
     } from "$lib/data/qna/supabaseDB";
+    import CodeBoxAuto from "$lib/components/CodeBoxAuto.svelte";
 </script>
 
 <div class="flex flex-col gap-6 mb-40">
@@ -100,7 +101,7 @@
         <b>index.html</b>에 Supabase 라이브러리를 추가하고, <b>createClient</b> 변수를
         선언해줍니다.
     </div>
-    <CodeBox lang="html" code={indexHTML} />
+    <CodeBoxAuto code={indexHTML} />
     <div>다음은 화면을 클릭할 때 텍스트를 DB에 저장하는 예제입니다.</div>
     <div>
         <span class="bg-black text-[#a5d6ff]"
@@ -110,7 +111,7 @@
             >&nbsp;&lbrace; API_KEY &rbrace;&nbsp;</span
         > 대신 저장해 둔 값을 넣어주세요.
     </div>
-    <CodeBox lang="js" code={sketchJS} />
+    <CodeBoxAuto code={sketchJS} />
     <div>
         실행 후 캔버스를 클릭하면 '<b>post uploaded successfully</b>'라는
         메세지와 함께 DB에 데이터가 저장 된 것을 확인할 수 있습니다.
@@ -137,7 +138,7 @@
         <b>sketch.js</b>는 다음과 같습니다.
     </div>
 
-    <CodeBox lang="js" code={sketchJS_loadDB} />
+    <CodeBoxAuto code={sketchJS_loadDB} />
 </div>
 
 <style>
