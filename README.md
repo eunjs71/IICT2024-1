@@ -2,4 +2,4 @@
 
 [정보문화학] 정보문화기술입문 2023년 2학기
 
-iict-2024-1.vercel.app
+https://iict-2024-1.vercel.app
