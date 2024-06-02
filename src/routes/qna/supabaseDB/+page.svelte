@@ -104,10 +104,11 @@
     <div>다음은 화면을 클릭할 때 텍스트를 DB에 저장하는 예제입니다.</div>
     <div>
         <span class="bg-black text-[#a5d6ff]"
-            >&lbrace; PROJECT_URL &rbrace;</span
+            >&nbsp;&lbrace; PROJECT_URL &rbrace;&nbsp;</span
         >,
-        <span class="bg-black text-[#a5d6ff]">&lbrace; API_KEY &rbrace;</span> 대신
-        저장해 둔 값을 넣어주세요.
+        <span class="bg-black text-[#a5d6ff]"
+            >&nbsp;&lbrace; API_KEY &rbrace;&nbsp;</span
+        > 대신 저장해 둔 값을 넣어주세요.
     </div>
     <CodeBox lang="js" code={sketchJS} />
     <div>
