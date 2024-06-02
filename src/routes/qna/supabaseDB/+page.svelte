@@ -121,9 +121,9 @@
         예시에서는 테이블 칼럼을 <b>content</b> 하나만 텍스트 타입으로 추가했기
         때문에,
         <span class="bg-black text-white"
-            >.<span class="text-[#d2a8ff]">insert</span>(&lbrace;
+            >&nbsp;.<span class="text-[#d2a8ff]">insert</span>(&lbrace;
             <span class="text-[#79c0ff]">content</span>:
-            <span class="text-[#a5d6ff]">'11111'</span> &rbrace;)</span
+            <span class="text-[#a5d6ff]">'11111'</span> &rbrace;)&nbsp;</span
         >과 같이 한 변수만 넣어주면 됩니다. 테이블에 추가로 변수를 넣었다면,
         변수명과 값을 추가해주면 됩니다.
     </div>
