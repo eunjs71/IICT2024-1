@@ -11,7 +11,7 @@
 
     export let lang = "js" as string | LanguageType<string>;
     export let code = "const add = (a: number, b: number) => a + b;";
-    $: language = javascript as LanguageType<string>;
+    $: language = vbscriptHtml as LanguageType<string>;
     onMount(() => {
         if (lang === "html") {
             language = vbscriptHtml;
