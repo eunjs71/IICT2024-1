@@ -11,6 +11,9 @@ export const qnaInLinks = [
     {
         title: "Supabase DB에 텍스트 데이터 저장하기/불러오기",
         link: "/qna/supabaseDB",
+    }, {
+        title: "월별 운세 확인하고, 요약 정보 보기",
+        link: "/qna/monthlyFortune2024",
     },
 
 ] as LinkInfo[];
