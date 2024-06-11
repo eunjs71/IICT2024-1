@@ -9,6 +9,9 @@
     <div>과제전 준비</div>
     <div class="flex flex-col mb-4">
         <div>
+            - <a href="/exhibition/hideAPIkey"> OPENAI_API_KEY 숨기기 </a>
+        </div>
+        <div>
             - <a href="/exhibition/githubUpload">
                 GitHub Repository에 코드 업로드하기
             </a>
