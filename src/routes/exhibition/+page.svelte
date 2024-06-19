@@ -29,6 +29,9 @@
         <div>
             - <a href="/exhibition/writeREADMEmd"> README.md 작성하기 </a>
         </div>
+        <div>
+            - <a href="/exhibition/runLocal"> VSCode 없이 로컬에서 실행하기 </a>
+        </div>
     </div>
     <div>과제전</div>
     <div>
